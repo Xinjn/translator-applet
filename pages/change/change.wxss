@@ -1,0 +1,35 @@
+.container {
+  background: #3c5060;
+}
+.lang-list {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  background: #586F80;
+  border-bottom: 4px solid #3c5060;
+  padding: 20rpx 40rpx;
+  color: #B2C3CD;
+  font-size: 28rpx;
+}
+.item {
+  padding-left: 40rpx;
+  background-color: #3c5060;
+  color: #B2C3CD;
+}
+.item-inner {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #586F80;
+  padding:  20rpx 40rpx 20rpx 0;
+}
+.item .txt {
+  flex: 1;
+}
+.item .iconfont {
+  margin-left: auto;
+  color: #B2C3CD;
+}
+.item:nth-child(2) .item-inner {
+  border-top: none;
+}
